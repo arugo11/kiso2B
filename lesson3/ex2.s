@@ -1,8 +1,8 @@
-    .globl  main
+
     .data   #データ領域
 A:  .word   1, 2, 3, 4, 5, 6, 7, 8, 9, 10
     .text   #プログラム領域
-
+    .globl  main
 main:
     la      $a0, A          #ラベルAのアドレス取得
     li      $s0, 10         #終了条件
