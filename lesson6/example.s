@@ -1,5 +1,5 @@
         .text
-        .globl  main
+        .global  main
 main:
         la      $a0,    msg
         li      $s0,    0x41    #A
